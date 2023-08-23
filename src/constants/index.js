@@ -1,19 +1,16 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     csharp,
+    censusapp,
     c,
-    aws,
     python,
     sql,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -23,7 +20,6 @@ import {
     bags,
     publix,
     transcore,
-    carrent,
     jobit,
     tripguide,
     threejs,
@@ -190,25 +186,22 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Census App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Application transforms census data via backend randomization, ensuring anonymity. Its frontend displays this data in a user-friendly, legible format, making insights accessible and straightforward.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "express",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: censusapp,
+      source_code_link: "https://github.com/Brandonnn3/CensusApp",
     },
     {
       name: "Job IT",

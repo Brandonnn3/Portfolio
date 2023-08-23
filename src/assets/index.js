@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -21,7 +19,6 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -30,15 +27,13 @@ import bags from "./company/bags.png";
 import publix from "./company/publix.png";
 import transcore from "./company/transcore.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import censusapp from "./censusapp.png";
 import { a } from "maath/dist/objectSpread2-284232a6.esm";
 
 export {
-  logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -47,6 +42,7 @@ export {
   css,
   csharp,
   c,
+  censusapp,
   aws,
   python,
   sql,
@@ -58,14 +54,12 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
   bags,
   publix,
   transcore,
-  carrent,
   jobit,
   tripguide,
 };
