@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v2.5.0
         with:
           node-version: '16.x'
       
@@ -32,11 +32,17 @@ jobs:
 
       - name: Display npm version and environment
         run: |
+         node -v
          npm -v
-         printenv
 
-      - name: Build project
-        run: npm run build
+      - name: Simple Node.js test
+        run: |
+          echo "const x = 'Hello, World!'; console.log(x);" > test.js
+          node test.js
+       
+
+      - name: Build project with verbose logging
+        run: npm run build --verbose
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
