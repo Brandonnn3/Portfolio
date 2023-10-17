@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const Computers = useGLTF("./the_thinker_by_auguste_rodin/scene.gltf");
+  const Computers = useGLTF("./the_thinker_by_auguste_rodin/scene.glb");
   const [rotation, setRotation] = useState(0);
 
   useEffect(() => {

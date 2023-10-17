@@ -7,14 +7,10 @@ import {
     css,
     csharp,
     censusapp,
-    c,
-    python,
-    sql,
     reactjs,
-    tailwind,
     nodejs,
     mongodb,
-    git,
+    
     figma,
     docker,
     bags,
@@ -73,18 +69,9 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "Sql",
-      icon: sql,
     },
     {
        name: "C#",
@@ -97,10 +84,6 @@ import {
     {
       name: "Three JS",
       icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
     },
     {
       name: "figma",
