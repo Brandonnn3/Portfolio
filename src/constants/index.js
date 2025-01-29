@@ -187,25 +187,25 @@ import {
       source_code_link: "https://github.com/Brandonnn3/CensusApp",
     },
     {
-      name: "Job IT",
+      name: "Mood Reads Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Project Manager for Mood Reads website development. Collaborated with a team of 9 to meet the client's goals.",
       tags: [
         {
-          name: "react",
+          name: "bitbucket",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "render",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://mood-reads-website.onrender.com/",
     },
     {
       name: "Trip Guide",
